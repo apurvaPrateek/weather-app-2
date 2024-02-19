@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.content{
+    background-image: linear-gradient(135deg, rgb(42, 203, 235), rgb(8, 54, 67));
+    min-width: 600px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 50px;
+    padding: 30px;
+
+    
+}
+
+.search-bar{
+    display: flex;
+    gap: 20px;
+    /* width: 80%; */
+    
+    
+}
+
+.search-bar input{
+    border-radius: 10px;
+    width: 300px;
+    color: rgb(67, 63, 63);
+    
+}
+
+.error{
+    display:none;
+}
+
+
+
+
+
+
+
+.city{
+    font-size: 2rem;
+}
+.temperature p{
+    font-size: 2rem;
+    
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.humidity{
+    display: flex;
+    gap: 10px;
+}
+
+.wind-speed{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.weather-img, .temperature, .city, .details{
+    display: none;
+}
